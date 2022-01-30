@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "abchanel_pb_regular_mregular";
+    src: url("chanel-webfont.woff2") format("woff2"),
+      url("chanel-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "abchanel_pb_regular_mregular";
+    width: 100%;
+    height: 100%;
+  }
+  .ziel-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .uk-navbar-container,
+  .uk-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .uk-margin,
+  .uk-navbar {
+    margin-top: 20px;
+  }
+
+  
+a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+
+.accroche {
+    text-decoration: underline;
+    text-decoration-color: #e5be1d;
+}
+
+.caroussel {
+    width:80%;
+}
+
+li {
+    position: relative;
+    text-align: center;
+  }
+  
+  .texte-image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+
+  .uk-button {
+    border-radius: 10px;
+      
+  }
+
+button:hover {
+    color:white;
+    background-color: #e5be1d;
+
+}
+
+span {
+  height:30px;
+  
+}
+
+span:hover {
+  background-color: #e5be1d;
+}
+
+.uk-slideshow-items {
+    width:100%;
+}
+
+.bord {
+    width:50%;
+    border:5px solid #e5be1d;
+    padding-top:5px;
+}
+
+.tendances {
+    padding-top: 15px;
+}
+
+.uk-h4 {
+    font-family: "abchanel_pb_regular_mregular";
+}
+
+.canape {
+    margin-top:50px
+    
+}
+
+.uk-card:hover {
+    box-shadow: #e5be1d 0px 5px 15px;
+}
+
+.uk-grid-match {
+    padding:20px;
+}
+
+.prix {
+    border: 4px solid #e5be1d;
+    color:black;
+    font-weight: bold;
+}

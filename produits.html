@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="uikit.min.css" />
+  <script src="uikit.min.js"></script>
+  <script src="uikit-icons.min.js"></script>
+  <link rel="stylesheet" href="ziel.css">
+  <title>Produits</title>
+</head>
+
+<body>
+  <!--NAV BAR-->
+  <div class="uk-container">
+    <div class="logo">
+      <img class="ziel-logo" src="assets/ZIEL.png" width="130" alt="Not Today Satan ! " />
+      <div class="uk-grid-small">
+        <img class="cart" src="assets/cart.png" width="40" alt="not today w3c!" />
+        <img class="user" src="assets/user.png" width="40" alt="not today w3c !" />
+      </div>
+    </div>
+    <div uk-navbar-container>
+      <div class="uk-margin" uk-navbar>
+        <a href="index.html">Home</a>
+        <a>Produits</a>
+        <a href="index.html #bauhaus">Collections</a>
+        <a href="davide.html">Inspirations</a>
+      </div>
+    </div>
+
+    <!--main-->
+    <div class="uk-container">
+      <div class="uk-container">
+        <p class="accroche uk-text-large uk-text-center uk-text-center@m uk-text-center@s uk-text-secondary">Choisissez
+          une
+          nouvelle âme pour vos pièces</p>
+        <div class="caroussel uk-align-center">
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+            <ul class="uk-slideshow-items">
+              <li>
+                <img data-src="idee-salon.jpg" alt="" uk-cover uk-img="target: !ul > :first-child, !* +*">
+                <div class="texte-image">
+                  <button class="uk-button uk-button-large uk-button-small@s">SALON</button>
+                </div>
+              </li>
+              <li>
+                <img data-src="salle-de-bains.png" alt="" uk-cover uk-img="target: !* -*, !* +*">
+                <div class="texte-image">
+                  <button class="uk-button uk-button-large">SALLE DE BAIN</button>
+                </div>
+              </li>
+              <li>
+                <img data-src="cuisine.png" alt="" uk-cover uk-img="target: !* -*, !* +*">
+                <div class="texte-image">
+                  <button class="uk-button uk-button-large">CUISINE</button>
+                </div>
+              </li>
+              <li>
+                <img data-src="chambre.jpg" alt="" uk-cover uk-img="target: !* -*, !ul > :last-child">
+                <div class="texte-image">
+                  <button class="uk-button uk-button-large">CHAMBRE</button>
+                </div>
+              </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+              uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+              uk-slideshow-item="next"></a>
+          </div>
+        </div>
+      </div>
+      <div class="bord uk-align-center uk-text-center@l uk-text-center@m uk-text-center@s ">
+        <p
+          class="tendances uk-text-large uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l uk-text-uppercase uk-text-secondary">
+          Les tendances du moment</p>
+      </div>
+      <div class="uk-container">
+        <div
+          class="uk-grid-match uk-child-width-expand@s  uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l"
+          uk-grid>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="canape-1.jpg" alt="canape-1" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Canapé Velours bleu</p>
+                    <p class="prix uk-text-large uk-position-bottom">1200&nbsp;€ <span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img class="canape" src="canape-2.jpg" alt="canape-2" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Canapé tissus magenta</p>
+                    <p class="prix uk-text-large uk-position-bottom">500&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="fauteuil-1.jpg" alt="fauteuil-1" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Fauteuil tissus cyan</p>
+                    <p class="prix uk-text-large uk-position-bottom">200&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="canape-3.jpg" alt="canape-3" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Canapé cuir corail</p>
+                    <p class="prix uk-text-large uk-position-bottom">2000&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="canape-4.jpg" alt="canape-4" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Canapé tissus gris foncé</p>
+                    <p class="prix uk-text-large uk-position-bottom">1900&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="fauteuil-2.jpg" alt="fauteuil-2" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Fauteuil tissus indigo</p>
+                    <p class="prix uk-text-large uk-position-bottom">450&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="sdb-4.jpg" alt="salle de bain 4" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Douche italienne</p>
+                    <p class="prix uk-text-large uk-position-bottom">4000&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="sdb-5.jpg" alt="salle de bain 5" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Baignoire îlot classique</p>
+                    <p class="prix uk-text-large uk-position-bottom">500&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="baignoire-1.jpg" alt="baignoire" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Baignoire ilôt moderne bleue</p>
+                    <p class="prix uk-text-large uk-position-bottom">700&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container">
+        <div class="uk-grid-match uk-child-width-expand@s uk-child-width-expand@m uk-text-center" uk-grid>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="sdb-1.jpg" alt="salle de bain 1" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Ensemble MOLLY - Meubles chêne</p>
+                    <p class="prix uk-text-large uk-position-bottom">450&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="sdb-2.jpg" alt="salle de bain 2" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Baignoire îlot rectangulaire</p>
+                    <p class="prix uk-text-large uk-position-bottom">500&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="uk-card uk-card-default uk-card-body">
+              <div class="uk-text-center uk-text-center@s uk-text-center@m uk-text-center@l">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                  <img src="sdb-3.jpg" alt="salle de bain 3" />
+                  <div
+                    class="uk-transition-fade uk-position-cover uk-position-small uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">
+                    <a href="" uk-icon="heart" class="uk-position-center"></a>
+                    <p class="uk-h4 uk-margin-remove uk-text-bold uk-position-top">Ensemble LALLY - Meuble en bois</p>
+                    <p class="prix uk-text-large uk-position-bottom">300&nbsp;€<span class="uk-position-right uk-margin-small-top uk-margin-small-right" uk-icon="check"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Footer-->
+      <footer class="uk-section uk-section-secondary uk-padding-remove-bottom" style="padding-inline: 2%">
+        <div class="uk-container">
+          <div class="uk-grid uk-grid-large" data-uk-grid>
+            <div class="uk-width-1-2@m">
+              <h5>OUR COMPANY</h5>
+              <p>
+                Our team of resident designers with literally 48 hours of
+                experience will make your ugly ass house look habitable and
+                pretty, unlike you.<br />
+                Please contact us at:
+                <a href="#" title="">brokewithexpensivetaste@outlook.com</a>
+              </p>
+              <div>
+                <a href="" class="uk-icon-button" data-uk-icon="twitter"></a>
+                <a href="" class="uk-icon-button" data-uk-icon="facebook"></a>
+                <a href="" class="uk-icon-button" data-uk-icon="instagram"></a>
+              </div>
+            </div>
+            <div class="uk-width-1-6@m">
+              <h5>PRODUCTS</h5>
+              <ul class="uk-list">
+                <li>Interior Design</li>
+                <li>Consulting</li>
+                <li>Inquiries</li>
+                <li>Creative Direction</li>
+              </ul>
+            </div>
+            <div class="uk-width-1-6@m">
+              <h5>DREAM TEAM</h5>
+              <ul class="uk-list">
+                <li>Davide</li>
+                <li>Emilie</li>
+                <li>Maxime</li>
+                <li>Daniel Ricardo</li>
+              </ul>
+            </div>
+            <div class="uk-width-1-6@m">
+              <h5>OUR OFFICES</h5>
+              <ul class="uk-list">
+                <li>Paris</li>
+                <li>Milan</li>
+                <li>Tokyo</li>
+                <li>Narnia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="uk-text-center uk-padding uk-padding-remove-horizontal">
+          <span class="uk-text-small uk-text-muted">© 2021 MAISON ZIEL </span>
+        </div>
+      </footer>
+    </div>
+</body>
+
+</html>
